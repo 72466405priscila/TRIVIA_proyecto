@@ -1,0 +1,46 @@
+print("Bienvenido a mi trivia sobre videojuegos")
+print("Pondremos a prueba tus conocimientos")
+
+print(
+    "Responder las siguientes preguntas escribiendo la letra de la alternativa que creas correcta y presionando Enter para enviar tu respuesta:\n"
+)
+
+print("1) ¿Cual es el videojuego mas antiguo?")
+print("a) Arcade")
+print("b) oxo")
+print("c) Counter strike")
+print("d) Undertale")
+
+respuesta_1 = input("Tu respuesta: ")
+
+if respuesta_1 == "b":
+    print("Muy bien")
+else:
+    print("Incorrecto")
+
+  #pregunta 2
+    print("2)¿Cual es el videojuego top 1?")
+    print("a) Tetris")
+    print("b) Minecraft")
+    print("c) Mario Bros")
+    print("d) GTA")
+
+    Respuesta_2 = input("Tu respuesta:")
+
+    if Respuesta_2 == "b":
+        print("Muy bien")
+    else:
+        print("Incorrecto")
+  #pregunta 3
+        print("3)¿Cual es el videojuego mas actualizado?")
+        print("a) Elden ring")
+        print("b) Fre Fire")
+        print("c) Among us")
+        print("d) Fortnite")
+
+        Respuesta_3 = input("Tu respuesta:")
+
+        if Respuesta_3 == "a":
+            print("Muy bien")
+        else:
+            print("Incorrecto")

@@ -1,0 +1,7 @@
+X = 0
+while x <= 10:
+if x == 3:
+print("boom")
+else:
+print(x)
+x= x+1
